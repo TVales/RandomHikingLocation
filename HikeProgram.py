@@ -20,7 +20,3 @@ rand = random.randint(1, len(placeToHike))
 randomPlace = placeToHike[rand]
 
 print('You should hike ' + randomPlace)
-
-#ADD MORE functionality when you learn web scraping
-#when chosen random place to hike give area and location of that hike
-#give info for that hike like location, distance (roundtrip), popularity, distance from current location
