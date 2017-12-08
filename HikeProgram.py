@@ -1,6 +1,8 @@
 #Enter places to hike and gives you a random place you should hike. Decision-Maker program. Random
 
 import random #imports the random module
+import webbrowser
+import time
 
 placeToHike = [] #array that stores all the places to hike
 
@@ -20,3 +22,7 @@ rand = random.randint(1, len(placeToHike))
 randomPlace = placeToHike[rand]
 
 print('You should hike ' + randomPlace)
+
+time.sleep(5)
+
+webbrowser.open('https://www.hikingupward.com/jnf/' + randomPlace)
