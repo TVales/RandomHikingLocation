@@ -7,7 +7,7 @@ import time
 placeToHike = [] #array that stores all the places to hike
 
 while True:
-    print('Enter the name of the trail you would like to hike or enter nothing to stop')
+    print('Enter the name of the trail you would like to hike with no spaces or enter nothing to stop')
     place = input()
     if place == '':
         break
@@ -18,11 +18,11 @@ print('Here are the places you wanted to hike')
 for name in placeToHike: #for loop to traverse places
     print(' ' + name)
 
-rand = random.randint(1, len(placeToHike))
+rand = random.randint(1, len(placeToHike) - 1)
 randomPlace = placeToHike[rand]
 
 print('You should hike ' + randomPlace)
 
 time.sleep(5)
 
-webbrowser.open('https://www.hikingupward.com/jnf/' + randomPlace)
+webbrowser.open('https://www.hikingupward.com/JNF/' + randomPlace)
