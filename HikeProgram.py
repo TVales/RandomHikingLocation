@@ -1,7 +1,7 @@
 #Enter places to hike and gives you a random place you should hike. Decision-Maker program. Random
 
 import random #imports the random module
-import webbrowser
+import webbrowser #allows for opening of web browser
 import time
 
 placeToHike = [] #array that stores all the places to hike
