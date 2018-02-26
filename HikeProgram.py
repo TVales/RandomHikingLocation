@@ -25,4 +25,4 @@ print('You should hike ' + randomPlace)
 
 time.sleep(5)
 
-webbrowser.open('https://www.hikingupward.com/JNF/' + randomPlace)
+webbrowser.open('https://www.hikingupward.com/JNF/' + randomPlace) #Does not work. Fix this portion to move on
