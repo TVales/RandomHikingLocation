@@ -1,4 +1,4 @@
-#Enter places to hike and gives you a random place you should hike. Decision-Maker program. Random
+#Enter places to hike in NJF area and gives you a random place you should hike. Decision-Maker program. Random
 
 import random #imports the random module
 import webbrowser #allows for opening of web browser
@@ -25,4 +25,4 @@ print('You should hike ' + randomPlace)
 
 time.sleep(5)
 
-webbrowser.open('https://www.hikingupward.com/JNF/' + randomPlace) #Does not work. Fix this portion to move on
+webbrowser.open('https://www.hikingupward.com/JNF/' + randomPlace) #Does not work. Fix this portion to move on. Can be problem with website
